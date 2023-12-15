@@ -1,0 +1,22 @@
+
+body{
+    background-color: black;
+}
+
+#imagenp{
+    width: 98vw;
+    height: 95vh;
+    border-radius: 20%;
+    animation-name: entrada;
+    animation-duration: 10s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes entrada {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1; 
+    }
+}
